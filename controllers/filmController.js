@@ -32,7 +32,7 @@ function show(req, res) {
         }
 
         const movie = movies[0];
-        console.log("movie iniziale", movie);
+        
 
         db.query(sqlQueryReviews, [id], (err, reviews) => {
             if (err) {
