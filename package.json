@@ -1,0 +1,15 @@
+{
+  "name": "webapp-express",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node --env-file=.env  --watch index.js"
+  },
+  "license": "ISC",
+  "author": "Francesco Miliotti",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.20.0"
+  }
+}
